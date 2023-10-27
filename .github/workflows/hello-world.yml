@@ -1,0 +1,10 @@
+name: Hello World
+
+on: push
+
+jobs:
+  hello-job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Create a text file
+      run: echo "Hello, world!"
