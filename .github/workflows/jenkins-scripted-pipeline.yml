@@ -16,8 +16,9 @@ jobs:
       - ubuntu-latest
     steps:
     - run: |
-        echo 'Pretending to build...'
+        echo 'Pretending to build...' 
         sleep 50  // Simulate work
+      shell: bash
 
   Results:
     runs-on:
