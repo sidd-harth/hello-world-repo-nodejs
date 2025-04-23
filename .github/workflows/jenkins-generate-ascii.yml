@@ -7,8 +7,7 @@ jobs:
     runs-on:
       - ubuntu-latest
     steps:
-    - name: run command
-      shell: bash
+    - name: build-artwork
       run: |-
         # Build a message by invoking ADVICESLIP API
         curl -s https://api.adviceslip.com/advice > advice.json
